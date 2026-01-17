@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+
+#Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+#hamburger-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.2s ease;
+}
+
+#hamburger-menu:hover {
+    opacity: 0.7;
+}
+
+#hamburger-menu img {
+    height: 30px;
+    width: auto;
+}
+
+#hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FEEAE9;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    padding: 80px 100px;
+}
+
+#hero-content {
+    flex: 1;
+}
+
+#hero-content h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#hero-content p {
+    font-size: 18px;
+    color: #4E4E4E;
+    margin-bottom: 25px;
+    max-width: 500px;
+}
+
+#hero-price {
+    margin-bottom: 25px;
+    color: #FF136F;
+}
+
+#hero-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.title, #catagory-container h1 {
+    font-size: 32px;
+    margin: 40px 0 25px 0;
+    text-align: left;
+}
+
+.btn, button {
+    background-color: #FF136F;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: 2px solid #FF136F;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover, button:hover {
+    background-color: white;
+    color: #FF136F;
+}
+
+#catagory {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+#Watch, #Bag-cat, #Shoes {
+    display: flex;
+    height: 140px;
+    border-radius: 15px;
+    flex: 1;
+    min-width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#Watch { background-color: #FF9C35; }
+#Bag-cat { background-color: #FF136F; }
+#Shoes { background-color: #3F07F8; }
+
+#Watch h2, #Bag-cat h2, #Shoes h2 {
+    color: white;
+    font-size: 32px;
+}
+
+#catagory img {
+    height: 100px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #EAEAEA;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 350px;
+}
+
+.card-img-box {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.card h3 {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.card p {
+    color: #707070;
+    margin-bottom: 15px;
+    font-size: 14px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.card-price {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.card button {
+    background-color: #000;
+    border: 2px solid #000;
+    width: 100%;
+    margin-top: auto;
+    color: white;
+}
+
+.card button:hover {
+    background-color: white;
+    color: #000;
+    border: 2px solid #000;
+}
+
+#Email {
+    background-color: #FEEAE9;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+
+#Email h2 {
+    color: #000;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+#email-subtext {
+    margin-bottom: 30px;
+}
+
+#Email input {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-right: 15px;
+}
